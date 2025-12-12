@@ -1,40 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Login</title>
-    <style>
-      h1 {
-        color: red;
-      }
-    </style>
-  </head>
+<html lang="en" style="font-family: Arial">
 
-  <body>
-    <div class="container">
-      <h1>SELAMAT DATANG</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Registrasi</title>
 
-      <h2>Form Pendaftaran</h2>
 
-      <label for="">Nama</label>
-      <input type="text" /> <br />
+  <style>
+    body {
+      background-color: #e8e8e8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95vh;
 
-      <label for="">Alamat</label>
-      <input type="text" /> <br />
+    }
 
-      <label for="">Email</label>
-      <input type="text" /> <br />
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
 
-      <label for="">Password</label>
-      <input type="password" /> <br />
+    h1 {
+      text-align: center;
+      color: red;
+    }
 
-      <label for="">Konfirmasi Password</label>
-      <input type="password" /><br />
+    h2 {
+      color: blue;
+      text-align: center;
 
-      <p>Sudah Punya Akun? <a href="login.html">Login</a></p>
+    }
 
-      <button><a href="login.html">Registrasi</a></button>
-    </div>
-  </body>
+    input {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 8px;
+      background-color: #1776c3;
+      border: none;
+      border-radius: 3px;
+    }
+
+    button a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>SELAMAT DATANG</h1>
+
+    <h2>Form Pendaftaran</h2>
+
+    <label for="">Nama</label>
+    <input type="text" /placeholder="Nama">
+
+    <label for="">Alamat</label>
+    <input type="text" /placeholder="Alamat">
+
+    <label for="">Email</label>
+    <input type="text" /placeholder="Email">
+
+    <label for="">Password</label>
+    <input type="password" /placeholder="Password">
+
+    <label for="">Konfirmasi Password</label>
+    <input type="password" /placeholder="Konfirmasi Password">
+
+    <p>Sudah Punya Akun? <a href="login.html">Login</a></p>
+
+    <button><a href="login.html">Registrasi</a></button>
+  </div>
+</body>
+
 </html>
