@@ -28,7 +28,7 @@ h1 {
 table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
+  background: var(--white);
 }
 
 th,
@@ -39,8 +39,8 @@ td {
 }
 
 th {
-  background: #0073e6;
-  color: white;
+  background: var(--primary);
+  color: var(--white);
 }
 
 /* bootstrap style */
@@ -115,6 +115,10 @@ th {
 
 .me-5 {
   margin-right: 25px;
+}
+
+.me-1 {
+  margin-right: 5px;
 }
 
 .mt-2 {
@@ -222,11 +226,11 @@ th {
 }
 
 .border {
-  border: 2px solid #c1c1c1;
+  border: 2px solid var(--secondary);
 }
 
 .border-bottom {
-  border-bottom: 2px solid #c1c1c1;
+  border-bottom: 2px solid var(--secondary);
 }
 
 .border-radius-5 {
@@ -255,7 +259,7 @@ th {
 }
 
 .btn:hover {
-  background-color: #0ab80a;
+  background-color: var(--success);
   transition: ease-in-out 0.2s;
 }
 
@@ -272,17 +276,13 @@ th {
   color: #fff;
 }
 
-.profile-card {
-  /* background-color: #cdcdcd; */
-}
-
 nav {
   display: flex;
-  align:items: center;
+  align-items: center;
 }
 
 nav > li {
-  dislpaly: inline;
+  display: inline;
   margin-right: 20px;
 }
 
@@ -300,8 +300,14 @@ nav > li > a:hover {
   padding: 0 50px;
 }
 
+.container-fluid {
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
 .white-box {
-   background-color: #ffffffff;
+  background-color: #ffffff;
   padding: 10px 30px;
   border-radius: 10px;
 }
@@ -318,7 +324,6 @@ nav > li > a:hover {
   margin-left: -15px;
   margin-right: -15px;
 }
-
 
 /* kolom */
 [class*="col-"] {
