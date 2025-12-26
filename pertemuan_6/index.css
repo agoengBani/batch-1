@@ -281,29 +281,17 @@ nav {
   align-items: center;
 }
 
-<<<<<<< HEAD
 nav > li {
-=======
-nav>li {
->>>>>>> edb0cce32a3a6fe5a48a75ef6f442cffee331e08
   display: inline;
   margin-right: 20px;
 }
 
-<<<<<<< HEAD
 nav > li > a {
-=======
-nav>li>a {
->>>>>>> edb0cce32a3a6fe5a48a75ef6f442cffee331e08
   text-decoration: none;
   color: #000;
 }
 
-<<<<<<< HEAD
 nav > li > a:hover {
-=======
-nav>li>a:hover {
->>>>>>> edb0cce32a3a6fe5a48a75ef6f442cffee331e08
   text-decoration: none;
   color: var(--primary);
 }
@@ -406,8 +394,4 @@ nav>li>a:hover {
 
 .fs-24 {
   font-size: 24px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> edb0cce32a3a6fe5a48a75ef6f442cffee331e08
